@@ -1,7 +1,10 @@
+import BarraSuperior from "./components/barraSuperior/BarraSuperior";
 
 function App() {
   return (
-    <div className="app">Hola</div>
+    <div className="app">
+    <BarraSuperior/>
+    </div>
   );
 }
 
