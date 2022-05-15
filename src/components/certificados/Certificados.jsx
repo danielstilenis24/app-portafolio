@@ -2,6 +2,8 @@ import "./certificados.scss"
 
 export default function Certificados() {
   return (
-    <div className="certificados"></div>
+    <div className="certificados" id="certificados">
+
+    </div>
   )
 }
