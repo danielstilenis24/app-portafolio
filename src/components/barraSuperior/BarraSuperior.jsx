@@ -1,17 +1,31 @@
-import "./barraSuperior.scss"
+import "./barraSuperior.scss";
+import {Person, Mail} from "@material-ui/icons"
 
-export default function BarraSuperior() {
+export default function BarraSuperior({menuOpen,setMenuOpen}) {
   return (
-    <div className="barraSuperior" id="barraSuperior">
+    <div className={"barraSuperior " + (menuOpen && "active")}>
       <div className="wrapper">
         <div className="left">
-          <a href="#intro" className="logo">Daniel Lenis.</a>
+          <a href="#intro" className="logo">
+            Daniel Lenis.
+          </a>
+          <div className="itemContainer">
+            <Person className="icon"/>
+            <span>3136321770</span>
+          </div>
+          <div className="itemContainer">
+            <Mail className="icon"/>
+            <span>danielstilenis24@gmail.com</span>
+          </div>
         </div>
-        
         <div className="right">
-          
+          <div className="hamburger"  onClick={()=>setMenuOpen(!menuOpen)}>
+            <span className="line1"></span>
+            <span className="line2"></span>
+            <span className="line3"></span>
+          </div>
         </div>
       </div>
     </div>
-  )
+  );
 }
