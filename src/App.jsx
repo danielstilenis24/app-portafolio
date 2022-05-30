@@ -6,12 +6,15 @@ import Certificados from "./components/certificados/Certificados"
 import Contact from "./components/contacto/Contacto"
 import "./app.scss"
 import { useState } from "react";
+import Menu from "./components/menu/Menu";
+
 
 function App() {
   const [menuOpen,setMenuOpen]= useState(false)
   return (
     <div className="app">
     <BarraSuperior menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+    <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
     <div className="sections">
       
       <Intro/>
