@@ -7,7 +7,7 @@ export default function Intro() {
   useEffect(()=>{
     init(textRef.current, { 
       showCursor: false, 
-      strings: ['Desarrollador', 'Junior' ]
+      strings: ['Junior']
      });
   },[])
 
@@ -22,7 +22,7 @@ export default function Intro() {
         <div className="wrapper">
           <h2>Hola!, yo soy</h2>
           <h1>Daniel Lenis</h1>
-          <h3>.<span ref={textRef}></span></h3>
+          <h3>Desarrollador <span ref={textRef}></span></h3>
         </div>
         <a href="#portafolio">
           <img src="assets/down.png" alt="" />
