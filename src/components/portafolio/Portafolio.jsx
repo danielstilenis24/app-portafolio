@@ -8,7 +8,7 @@ export default function Portafolio() {
   return (
 
     <div className='portafolio' id='portafolio'>
-      <h1 className="h11">Portafolio</h1>
+      <h1 className="h1">Portafolio</h1>
       <Container className="container d-flex align-items-center text-center">
       <CardGroup>
         <Card className="rounded-pill">
