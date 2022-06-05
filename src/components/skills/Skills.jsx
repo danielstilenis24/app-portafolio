@@ -1,7 +1,7 @@
 import { Container } from "react-bootstrap";
 import "./trabajos.scss";
 
-export default function Trabajos() {
+export default function Skills() {
   return (
     <div className='trabajos' id='trabajos'>
       <h1 className="h1">SKILLS</h1>

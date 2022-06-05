@@ -1,7 +1,7 @@
 import BarraSuperior from "./components/barraSuperior/BarraSuperior";
 import Intro from "./components/intro/Intro"
 import Portafolio from "./components/portafolio/Portafolio"
-import Trabajos from "./components/trabajos/Trabajos"
+import Skills from "./components/skills/Skills"
 import Certificados from "./components/certificados/Certificados"
 import Contact from "./components/contacto/Contacto"
 import "./app.scss"
@@ -19,7 +19,7 @@ function App() {
       
       <Intro/>
       <Portafolio/>
-      <Trabajos/>
+      <Skills/>
       <Certificados/>
       <Contact/>
 
