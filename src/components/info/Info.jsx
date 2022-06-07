@@ -6,7 +6,7 @@ export default function Info() {
       <section class='py-5 text-center container'>
         <div class='row py-lg-5'>
           <div class='col-lg-9 col-lg-6 mx-auto'>
-            <h1 class='fw-light'>Sobre mi</h1>
+            <h1 class='fw-light'>SOBRE MI</h1>
             <p class='lead text-muted mb-4'>
               Soy desarrollador, la codificación es mi pasión y mi enfoque de mi
               carrera profesional. El desarrollo de aplicaciones para la web se

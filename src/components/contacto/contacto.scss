@@ -22,7 +22,7 @@
 }
 
 .contact__option{
-    background: var(--color-bg-variant);
+    background: var(--color5);
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
@@ -31,7 +31,7 @@
 }
 
 .contact__option:hover{
-    background: black;
+    background: var(--color4);
     opacity: 0.5;
     border-color: var(--color-primary-variant);
 }

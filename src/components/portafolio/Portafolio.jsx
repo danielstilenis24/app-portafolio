@@ -4,18 +4,18 @@ import "bootstrap/dist/css/bootstrap.min.css";
 export default function Portafolio() {
   return (
     <div className='portafolio' id='portafolio'>
-      <h1>Portafolio</h1>
+      <h1>PORTAFOLIO</h1>
       <div className='container'>
         <div className='portafolio__container'>
           <article className='portafolio__item'>
             <div className='portafolio__item-image'>
-              <img src='assets/git.jpg' alt='' />
+              <img src='assets/portafolio.jpg' alt='' />
             </div>
-            <h3>Titulo</h3>
+            <h3>Proyecto 1</h3>
             <div className='portafolio__item-cta'>
               <a
-                href='https://github.com'
-                className='btn btn-primary'
+                href='https://github.com/danielstilenis24/app-portafolio'
+                className='btn btn-light'
                 target='_blank'>
                 GitHub
               </a>
@@ -23,13 +23,13 @@ export default function Portafolio() {
           </article>
           <article className='portafolio__item'>
             <div className='portafolio__item-image'>
-              <img src='assets/git2.jpg' alt='' />
+              <img src='assets/portafolio2.jpg' alt='' />
             </div>
-            <h3>Titulo</h3>
+            <h3>Proyecto 2</h3>
             <div className='portafolio__item-cta'>
               <a
-                href='https://github.com'
-                className='btn btn-primary'
+                href='https://github.com/danielstilenis24/app-portafolio'
+                className='btn btn-light'
                 target='_blank'>
                 GitHub
               </a>
@@ -37,19 +37,18 @@ export default function Portafolio() {
           </article>
           <article className='portafolio__item'>
             <div className='portafolio__item-image'>
-              <img src='assets/git.jpg' alt='' />
+              <img src='assets/portafolio3.png' alt='' />
             </div>
-            <h3>Titulo</h3>
+            <h3>Proyecto 3</h3>
             <div className='portafolio__item-cta'>
               <a
-                href='https://github.com'
-                className='btn btn-primary'
+                href='https://github.com/danielstilenis24/app-portafolio'
+                className='btn btn-light'
                 target='_blank'>
                 GitHub
               </a>
             </div>
           </article>
-         
         </div>
       </div>
     </div>
