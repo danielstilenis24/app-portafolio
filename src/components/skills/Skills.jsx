@@ -3,7 +3,7 @@ import "./trabajos.scss";
 
 export default function Skills() {
   return (
-    <div className='trabajos' id='trabajos'>
+    <div className='skills' id='skills'>
       <h1 className="h1">SKILLS</h1>
       <Container>
       <div className="d-flex justify-content-center d-flex flex-wrap">

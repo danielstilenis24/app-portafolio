@@ -1,5 +1,6 @@
 import BarraSuperior from "./components/barraSuperior/BarraSuperior";
 import Intro from "./components/intro/Intro"
+import Info from "./components/info/Info"
 import Portafolio from "./components/portafolio/Portafolio"
 import Skills from "./components/skills/Skills"
 import Certificados from "./components/certificados/Certificados"
@@ -18,6 +19,7 @@ function App() {
     <div className="sections">
       
       <Intro/>
+      <Info/>
       <Portafolio/>
       <Skills/>
       <Certificados/>
