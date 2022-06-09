@@ -3,10 +3,10 @@ import "./certificados.scss";
 export default function Certificados() {
   return (
     <div className='certificados' id='certificados'>
-      <h1 className="h1 text-center">CERTIFICADOS</h1>
-      <h3 className="h1 text-center">PLATZI</h3>
+      <h1 className='h1 text-center'>CERTIFICADOS</h1>
+      <h3 className='h1 text-center'>PLATZI</h3>
       <div className='container'>
-        <div class='row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3'>
+        <article class='row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3'>
           <div class='col'>
             <div class='card text-center'>
               <img src='assets/diploma1.jpg' class='card-img-top' alt='...' />
@@ -23,7 +23,11 @@ export default function Certificados() {
 
           <div class='col'>
             <div class='card text-center'>
-              <img src='assets/diploma2.jpg' class='card-img-top' alt='...' />
+              <img
+                src='assets/diploma2.jpg'
+                class='card-img-top certificados__img'
+                alt='...'
+              />
               <div class='card-body'>
                 <a
                   href='assets/diploma2.pdf'
@@ -48,8 +52,7 @@ export default function Certificados() {
               </div>
             </div>
           </div>
-
-        </div>
+        </article>
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 $mainColor: #0f1c30;
 
 :root{
-    --color-bg-variant: hsl(227, 100%, 46%);
+    --color-bg-variant: #0F1C30;
     --color-primary-variant: rgba(77, 181, 255, 034);
     --transition: all 400ms ease;
     --color1: #c2c6ce;
@@ -12,7 +12,7 @@ $mainColor: #0f1c30;
 }
 
 a{
-    color: var(--color-prymary);
+    color: var(--color5);
 }
 
 /*----------Form-------------*/

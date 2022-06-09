@@ -1,67 +1,72 @@
-.intro{
-    background-color: white;
-    display: flex;
+.intro {
+  background-color: white;
+  display: flex;
 
+  .intro__left {
+    flex: 0.5;
+    overflow: hidden;
 
+    .intro__left__imgContainer {
+      width: 700px;
+      height: 700px;
+      background: linear-gradient(90deg, #c0d0ef 0%, #0f1c30 100%);
+      border-radius: 50%;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      float: right;
 
-    .left{
-        flex: 0.5;
-        overflow: hidden;
-
-        .imgContainer{
-            width: 700px;
-            height: 700px;
-            background: linear-gradient(90deg, #c0d0ef 0%, #0f1c30 100%);
-            border-radius: 50%;
-            display: flex;
-            align-items: flex-end;
-            justify-content: center;
-            float: right;
-
-            img{
-                width: 57%;
-            }
-        }
+      img {
+        width: 57%;
+      }
     }
-    .right{
-        flex:0.5;
-        position: relative;
-        
-        .wrapper{
-            width: 100%;
-            height: 100%;
-            padding-left: 50px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
+  }
 
-            h1{
-                font-size: 60px;
-                margin: 10px 0;
-            }
-            h2{
-                font-size: 35px;
-            }
-            h3{
-                font-size: 30px;
-            }
-        }
-        a{
-            position: absolute;
-            bottom: 10px;
-            left: 40%;
+  ul.social-icons{
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    list-style: none;
+  }
 
-            img{
-                width: 30px;
-                animation: arrowBlink 2s infinite;
-            }
+  .intro__right {
+    flex: 0.5;
+    position: relative;
 
-            @keyframes arrowBlink {
-                100%{
-                    opacity: 0;
-                }
-            }
-        }
+    .intro__right__wrapper {
+      width: 100%;
+      height: 100%;
+      padding-left: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      h1 {
+        font-size: 60px;
+        margin: 10px 0;
+      }
+      h2 {
+        font-size: 35px;
+      }
+      h3 {
+        font-size: 30px;
+      }
     }
+    a {
+      position: absolute;
+      bottom: 10px;
+      left: 40%;
+
+      img {
+        width: 30px;
+        animation: arrowBlink 2s infinite;
+      }
+
+      @keyframes arrowBlink {
+        100% {
+          opacity: 0;
+        }
+      }
+    }
+  }
 }
-

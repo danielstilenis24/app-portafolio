@@ -4,8 +4,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 export default function Portafolio() {
   return (
     <div className='portafolio' id='portafolio'>
+      <header>
       <h1>PORTAFOLIO</h1>
-      <div className='container'>
+      </header>
+      <section className='container'>
         <div className='portafolio__container'>
           <article className='portafolio__item'>
             <div className='portafolio__item-image'>
@@ -50,7 +52,7 @@ export default function Portafolio() {
             </div>
           </article>
         </div>
-      </div>
+      </section>
     </div>
   );
 }

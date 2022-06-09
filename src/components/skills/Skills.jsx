@@ -1,10 +1,12 @@
 import { Container } from "react-bootstrap";
-import "./trabajos.scss";
+import "./skills.scss";
 
 export default function Skills() {
   return (
     <div className='skills' id='skills'>
+      <header>
       <h1 className="h1">SKILLS</h1>
+      </header>
       <Container>
       <div className="d-flex justify-content-center d-flex flex-wrap">
         <div>
