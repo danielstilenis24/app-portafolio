@@ -69,3 +69,86 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 # app-portafolio
+
+# PORTAFOLIO DANIEL LENIS
+###### En Este Proyecto Se Plasmo Los Datos De Mi Portafolio Personal, Donde Expongo Mis Skills, Certificados, Información Personal Y Diferetnes Formas De Contactarmen.
+
+###### Esta Construido Con Html, Scss Y Javascript, Utilizando framework De React.
+
+###### Inicialmente esta contruida para pantallas de pc
+
+## INICIO 
+
+###### Para Iniciar Se Crea El Proyecto De React Llamado "App-Portafolio" Con Npx Create-React-App App-Portafolio
+###### Posterior A La CreacióN Se Sube A Github Y Se Hace El Primer Commit Llamado 'Initial Commit :)'
+
+##### NOTA: Se cambia la rama master a rama 'main' debido a cambios de rama por defecto  de github con el codigo git branch -M main
+
+(Los pasos anteriores me base de la documentación de github
+echo "# app-portafolio" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/danielstilenis24/app-portafolio.git
+git push -u origin main)
+
+Codigo base para subir cambios al git
+1-git add .
+2-git commit -m "mensaje del commit"
+> (Los pasos anteriores me base de la documentación de github
+echo "# app-portafolio" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/danielstilenis24/app-portafolio.git
+git push -u origin main)
+Codigo base para subir cambios al git
+1-git add .
+2-git commit -m "mensaje del commit"
+3-git push -u origin main3-git push -u origin main
+
+---------------------------------------
+##### Para iniciar se creo los componentes que se van a trabajar en el proyecto
+###### 1-Barra superior
+###### 2-Intro
+###### 3-Portafolio
+###### 4-Trabajos
+###### 5-Certificados
+###### 6-Contacto
+##### a cada uno se le creo el jsx y el scss
+___________________________________________
+###### se instalo la extensión de VC de ES7 React/Redux/GraphQL/React-Native snippets para generar las funciones por defecto mas facilmente y agilizar un poco. con comando 'rfc'
+___________________________________________
+para el desplazamiento automatico de la letra se intalo react-typical
+
+## Dependencias usadas
+
+
+"dependencies": {
+        "@emotion/react": "^11.9.0",
+        "@emotion/styled": "^11.8.1",
+        "@material-ui/core": "^4.12.4",
+        "@material-ui/icons": "^4.11.3",
+        "@mui/material": "^5.8.3",
+        "@testing-library/jest-dom": "^5.16.4",
+        "@testing-library/react": "^13.2.0",
+        "@testing-library/user-event": "^13.5.0",
+        "bootstrap": "^5.1.3",
+        "bootstrap-icons": "^1.8.3",
+        "emailjs-com": "^3.2.0",
+        "ityped": "^1.0.3",
+        "node-sass": "^7.0.1",
+        "react": "^18.1.0",
+        "react-bootstrap": "^2.4.0",
+        "react-dom": "^18.1.0",
+        "react-icons": "^4.4.0",
+        "react-particles-js": "^3.6.0",
+        "react-scripts": "5.0.1",
+        "react-typical": "^0.1.3",
+        "web-vitals": "^2.1.4"
+      },
+
+# Autor
+- Daniel Lenis

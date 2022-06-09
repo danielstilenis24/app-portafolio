@@ -1,6 +1,5 @@
 import Typical from "react-typical";
 import "./intro.scss";
-import { BsGithub, BsLinkedin } from "react-icons/bs";
 
 export default function Intro() {
   return (
