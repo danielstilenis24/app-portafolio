@@ -28,15 +28,15 @@ export default function Contacto() {
       <section>
         <div className='container contact__container'>
           <div className='contact__options'>
-            <article className='contact__option'>
+            <article className='contact__option1'>
               <RiMessengerLine className='contact__option-icon' />
               <h4>Messenger</h4>
               <h5>Daniel Lenis</h5>
-              <a target='_blank' href='https://m.me/danielstilenis'>
+              <a className='button' target='_blank' href='https://m.me/danielstilenis'>
                 Enviave un mensaje
               </a>
             </article>
-            <article className='contact__option'>
+            <article className='contact__option2'>
               <BsWhatsapp className='contact__option-icon' />
               <h4>WhatsApp</h4>
               <h5>+57 3136321770</h5>

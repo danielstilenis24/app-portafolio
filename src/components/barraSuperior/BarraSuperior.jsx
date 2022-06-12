@@ -1,7 +1,7 @@
 import "./barraSuperior.scss";
 import {Person, Mail} from "@material-ui/icons"
 
-export default function BarraSuperior({menuOpen,setMenuOpen}) {
+const BarraSuperior = ({menuOpen,setMenuOpen}) => {
   return (
     <div className={"barraSuperior " + (menuOpen && "active")}>
       <div className="wrapper">
@@ -29,3 +29,5 @@ export default function BarraSuperior({menuOpen,setMenuOpen}) {
     </div>
   );
 }
+
+export default BarraSuperior;

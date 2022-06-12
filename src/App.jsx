@@ -10,7 +10,7 @@ import { useState } from "react";
 import Menu from "./components/menu/Menu";
 
 
-function App() {
+const App = ()=> {
   const [menuOpen,setMenuOpen]= useState(false)
   return (
     <div className="app">

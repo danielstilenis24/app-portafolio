@@ -1,7 +1,7 @@
 import Typical from "react-typical";
 import "./intro.scss";
 
-export default function Intro() {
+const Intro = ()=> {
   return (
     <section className='intro' id='intro'>
       <div className='intro__left'>
@@ -38,3 +38,5 @@ export default function Intro() {
     </section>
   );
 }
+
+export default Intro;

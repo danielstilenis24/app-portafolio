@@ -1,6 +1,6 @@
 import "./info.scss";
 
-export default function Info() {
+const Info =()=> {
   return (
     <div className='info' id='info'>
       <section class='py-5 text-center container'>
@@ -47,3 +47,5 @@ export default function Info() {
     </div>
   );
 }
+
+export default Info;

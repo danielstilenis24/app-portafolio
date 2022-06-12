@@ -1,7 +1,7 @@
 import "./portafolio.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-export default function Portafolio() {
+ const Portafolio = ()=> {
   return (
     <div className='portafolio' id='portafolio'>
       <header>
@@ -56,3 +56,5 @@ export default function Portafolio() {
     </div>
   );
 }
+
+export default Portafolio;
