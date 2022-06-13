@@ -4,17 +4,27 @@
   flex-direction: column;
   align-items: center;
 
-  h1 {
-    margin-top: 10px;
-    font-size: 50px;
-    margin-bottom: 120px;
-  }
-  img {
-    height: 150px;
-    width: 150px;
+  header {
+    max-width: 1446px;
+    margin: 0 auto;
+    min-width: 1300px;
+    text-align: center;
+    
   }
 
-  img:hover {
+ 
+  .container__carrucel__img {
+    height: 30rem;
+    width: 30rem;
+  }
+
+  .img__icons {
+    margin-top: 5rem;
+    height: 100px;
+    width: 100px;
+  }
+
+  .img__icons:hover {
     padding: 10%;
     display: inline-block;
   }

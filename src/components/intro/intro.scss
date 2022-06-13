@@ -1,6 +1,8 @@
 .intro {
   background-color: white;
   display: flex;
+  width: 100%;
+  max-width: 1446px;
 
   .intro__left {
     flex: 0.5;
@@ -9,12 +11,14 @@
     .intro__left__imgContainer {
       width: 700px;
       height: 700px;
-      background: linear-gradient(90deg, #c0d0ef 0%, #0f1c30 100%);
-      border-radius: 50%;
+      background-image: url(https://images.pexels.com/photos/3861976/pexels-photo-3861976.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+      border-radius: 1%;
       display: flex;
       align-items: flex-end;
       justify-content: center;
       float: right;
+      
+      
 
       img {
         width: 57%;
